@@ -1,6 +1,6 @@
 # RSS Feed to Zoom Chat Bot
 
-The RSS Feed to Zoom Chat Bot is a Node.js application that integrates with the Zoom API to deliver RSS feed updates directly to your Zoom chat channels or users. It leverages the rss-parser library to fetch and parse RSS feeds, and the node-cron library to schedule periodic fetches at a configurable interval (default: every 30 minutes).
+The RSS Feed to Zoom Chat Bot is a Node.js application that uses the Zoom Teams Chat App API to deliver RSS feed updates directly to your Zoom chat channels or users. It leverages the rss-parser library to fetch and parse RSS feeds, and the node-cron library to schedule periodic fetches at a configurable interval (default: every 30 minutes).
 
 When new items are available in the specified RSS feed, the bot constructs chat messages containing the item title and link, and sends them to the designated Zoom chat channel or user using the Zoom Chat API. This allows teams or individuals to stay up-to-date with the latest content from their favorite RSS sources without leaving the Zoom chat environment.
 
