@@ -23,14 +23,19 @@ cd rss-feed-zoom-bot npm install
 
 3. Create a `.env` file in the project root directory and add the following environment variables:
 
-PORT=4000 
-RSS_FEED_URL=https://example.com/rss 
-ZOOM_BOT_JID=your_zoom_bot_jid 
-ZOOM_TO_JID=your_zoom_channel_or_user_jid 
-ZOOM_USER_JID=your_zoom_user_jid 
-ZOOM_CLIENT_ID=your_zoom_client_id 
+PORT=4000  
+  
+RSS_FEED_URL=https://example.com/rss  
+  
+ZOOM_BOT_JID=your_zoom_bot_jid  
+  
+ZOOM_TO_JID=your_zoom_channel_or_user_jid  
+  
+ZOOM_USER_JID=your_zoom_user_jid  
+  
+ZOOM_CLIENT_ID=your_zoom_client_id  
+  
 ZOOM_CLIENT_SECRET=your_zoom_client_secret
-
 
 You can obtain the Zoom credentials by following the instructions in the [Zoom Chatbot Documentation](https://developers.zoom.us/docs/team-chat-apps/create/).
 
